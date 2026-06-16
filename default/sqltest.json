@@ -118,7 +118,9 @@
       "scheduledState" : "ENABLED",
       "schedulingPeriod" : "1 min",
       "schedulingStrategy" : "TIMER_DRIVEN",
-      "style" : { },
+      "style" : {
+        "background-color" : "#000000"
+      },
       "type" : "org.apache.nifi.processors.standard.GenerateFlowFile",
       "yieldDuration" : "1 sec"
     } ],
@@ -133,6 +135,6 @@
   "snapshotMetadata" : {
     "author" : "Shorouk Talaat",
     "flowIdentifier" : "sqltest",
-    "timestamp" : 1781619095443
+    "timestamp" : 1781619176256
   }
 }
